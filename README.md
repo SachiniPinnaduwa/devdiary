@@ -1,42 +1,50 @@
-DevDiary – A Weekly Developer Reflection Journal
+# 📔 DevDiary - Weekly Developer Reflection Journal
 
 📆 Track your progress, reflect on challenges, and set weekly goals with DevDiary – a minimalist journal for developers.
 
-🚀 Features
-✅ Weekly Entries (What did you learn? Struggles? Goals?)
-📅 Timeline View (Browse past entries chronologically)
-✍️ Markdown Support (Format text with headings, lists, code blocks)
-🔒 Secure Authentication (JWT-based login)
-🌙 Dark/Light Mode (Easy on the eyes)
+## 🚀 Features
+- ✅ Weekly Entries (What did you learn? Struggles? Goals?)
+- 📅 Timeline View (Browse past entries chronologically)
+- ✍️ Markdown Support (Format text with headings, lists, code blocks)
+- 🔒 Secure Authentication (JWT-based login)
+- 🌙 Dark/Light Mode (Easy on the eyes)
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Frontend React	
 Backend	Node.js
 Database MongoDB
 
-📥 Installation
-1. Clone the Repository
+### 📥 Installation
+1. **Clone the Repository**
+```bash
 git clone https://github.com/SachiniPinnaduwa/devdiary.git
 cd devdiary
+```
 
-2. Set Up Backend
+3. Set Up Backend
+```bash
 cd server
 npm install
 touch .env  # Add MongoDB URI & JWT_SECRET
 node server.js
+```
 
-3. Set Up Frontend
+5. Set Up Frontend
+```bash
 cd ../client
 npm install
 npm start
+```
 
 🔧 Environment Variables
-Create .env in server/:
+!Create .env in server/:
+```bash
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_random_secret_key
 PORT=5000
+```
 
-📂 Project Structure
+## 📂 Project Structure
 devdiary/  
 ├── client/          # React frontend  
 │   ├── public/  
@@ -47,12 +55,12 @@ devdiary/
 │   └── server.js    # Entry point  
 └── README.md  
 
-🎯 Roadmap
-Phase 1: Project Setup (MERN)
-Phase 2: User Authentication (JWT)
-Phase 3: Diary Entry CRUD
-Phase 4: Timeline & Markdown Rendering
-
-Happy Coding! ✨
+## 🎯 Roadmap
+- Phase 1: Project Setup (MERN)
+- Phase 2: User Authentication (JWT)
+- Phase 3: Diary Entry CRUD
+- Phase 4: Timeline & Markdown Rendering
+  
+## Happy Coding! ✨
 Let’s build a habit of reflection and growth. 🚀
 		
